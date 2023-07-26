@@ -2,10 +2,6 @@
   "version":2,
   "routes":[
       {
-          "src":"/files/(.*)",
-          "dest":"/files/$1"
-      },
-      {
           "src":"/(.*)",
           "dest":"http://119.3.250.151:20801/$1"
       }
