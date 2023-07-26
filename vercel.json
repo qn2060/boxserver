@@ -1,15 +1,10 @@
 {
-    "version":2,
-    "rewrites":[
-        {
-            "source":"/resources/(.*)",
-            "destination":"/resources/$1"
-        }
-    ],
-    "routes":[
-        {
-            "src":"/(.*)",
-            "dest":"http://119.3.250.151:20801/$1"
-        }
-    ]
+  "version": 3,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 307,
+      "headers": { "Location": "http://119.3.250.151:20801/$1" }
+    }
+  ]
 }
