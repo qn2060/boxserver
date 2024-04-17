@@ -3,9 +3,5 @@
   "routes":[
       { "handle": "filesystem" },
       { "src": "/files/(.*)", "dest": "/static/$1" },
-      {
-          "src":"/(.*)",
-          "dest":"http://119.3.250.151:20801/$1"
-      }
   ]
 }
