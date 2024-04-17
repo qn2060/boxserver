@@ -2,6 +2,6 @@
   "version":2,
   "routes":[
       { "handle": "filesystem" },
-      { "src": "/files/(.*)", "dest": "/static/$1" },
+      { "src": "/files/(.*)", "dest": "/static/$1" }
   ]
 }
